@@ -1,0 +1,107 @@
+body {
+    background: #cccccc;
+}
+
+.colPrincipal{
+    background: #fff;
+    padding: 0 30px 40px;
+}
+
+.colButtons{
+    max-width: 67%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 28px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    line-height: 32px;
+}
+
+h3{
+    font-size: 21px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    line-height: 32px;
+}
+
+p{
+    color: #585858;
+    font-family: Roboto, sans-serif;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#pancakeButton{
+    background-image: url('../images/pancakeswap.png');
+    background-color: #00fffb91;
+}
+
+#poocoinButton{
+    background-image: url('../images/poocoin.png');
+    background-color: #27121288;
+}
+
+.buyButton{
+    border: 0;
+    width: 132px;
+    height: 46px;
+    border-radius: 21px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+.buyButton:hover{
+    backdrop-filter: brightness(0.7);
+    transition: 1s;
+}
+
+footer{
+    background: #e7e7e7;
+}
+
+.ulIcons li{
+    display:block;
+    padding: 0 7px;
+}
+
+ul{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+a {
+    color: #2e2e2e;
+}
+
+.colFooterText p{
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 770px;
+    }
+}
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 700px;
+    }
+}
+
+@media (min-width: 992px){
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 620px;
+    }
+}
+
+@media (max-width: 500px){
+    .colButtons {
+        max-width: 100%;
+    }
+}
